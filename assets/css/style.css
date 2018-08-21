@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 30px;
+}
+
+.header-class {
+    padding: 18px;
+}
+
+.jumbotron {
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    border: 2px solid black;
+}
+
+h2 {
+    color: red;
+    font-size:50px;
+    font-weight: bold;
+    text-shadow: black 2px 2px;
+}
+.wrap {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    padding-bottom: 15px;
+}
+
+img.fixed-size { height: 120px; width: 120px; }
+
+.bg-black {
+    background-color: black;
+}
+
+.hero-name {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top : 8px;
+    color:grey;
+    text-shadow: 2px 2px 2px black;
+    font-size: 25px;
+}
+
+.menu-row {
+    cursor: pointer;
+}
+
+.sel-row {
+    cursor: default;
+    color: green;
+}
+
+.ene-row {
+    cursor: pointer;
+    color: red;
+}
+
+.def-row {
+    cursor: default;
+    color: orange;
+}
+
+.stats-row {
+    display: none;
+}
+
+.restart-row {
+    display: none;
+}
+
+.defeat-success {
+    display: none;
+}
+
+.def-hero {
+    font-style: italic;
+    color: orange;
+    font-size: 120%;
+}
+
+#attack-rate {
+    font-style: italic;
+    font-size: 120%;
+}
+
+#counter-attack {
+    font-style: italic;
+    font-size: 120%;
+}
